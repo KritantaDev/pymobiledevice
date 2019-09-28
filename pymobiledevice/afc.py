@@ -38,7 +38,7 @@ from pymobiledevice.lockdown import LockdownClient
 from cmd import Cmd
 from past.builtins import xrange
 from six import PY3
-from util import hexdump, parsePlist
+# from util import hexdump, parsePlist
 from pprint import pprint
 
 from pymobiledevice.lockdown import LockdownClient
