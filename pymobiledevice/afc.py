@@ -453,7 +453,10 @@ class AFCShell(Cmd):
         if d:
             for dd in d:
                 print(dd)
-
+    
+    def get_ls(self, p):
+        d = self.afc.read_directory(self.curdir + "/" + p)
+        return d;
 
     def do_cat(self, p):
         data = self.afc.get_file_contents(self.curdir + "/" + p)
