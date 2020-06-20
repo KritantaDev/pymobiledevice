@@ -21,9 +21,9 @@ that talks the protocols to support iPhone®, iPod Touch®, iPad® and Apple TV�
 
 This script can be used in order to pair with the device & starts other services.
 
-*/!\ Others services can only being accessed after succesful pairing.
-Succesful pairing requiert the device to be unlocked and user to click on
-"Trust this device" on its phone screen.*
+*Other services can only be accessed after successful pairing.
+Succesful pairing requires the device to be unlocked and the user to click
+"Trust this device" on their phone screen.*
 
 
 ## afc.py [com.apple.afc]
@@ -84,4 +84,24 @@ Starting iOS 5, apple added a remote virtual interface (RVI) facility that allow
 On Mac OSX the virtual interface can be enabled with the rvictl command. This script allows to use this service on other systems.
 
 
+# How to contribute
+Contributors are essential to pymobiledevice (as they are to most open source projects).
+Drop us a line if you want to contribute.
+We also accept pull request.
 
+
+# Reporting issues
+### Questions
+It is OK so submit issues to ask questions (more than OK, encouraged). There is a label "question" that you can use for that.
+
+### Bugs
+If you have installed pymobiledevice through a package manager (from your Linux or BSD system, from PyPI, etc.), please get and install the current development code, and check that the bug still exists before submitting an issue.
+
+Please label your issues "bug".
+
+If you're not sure whether a behavior is a bug or not, submit an issue and ask, don't be shy!
+
+Enhancements / feature requests
+If you want a feature in pymobiledevice, but cannot implement it yourself or want some hints on how to do that, open an issue with label "enhancement".
+
+Explain if possible the API you would like to have (e.g., give examples of function calls, etc.).
